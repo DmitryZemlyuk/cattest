@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html id="sadoodle">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<style></style>
+</head>
+
+<body style="text-align: center; margin: 0px;">
+	<script type="text/javascript" async="" src="halloween16_files/ga.js"></script>
+	<script>
+		window.google = {};
+		window.google.doodle = {};
+		if (window.self !== window.top) {
+			document.body.parentElement.id = 'sdoodles';
+		}
+	</script>
+	<style>
+		#hplogo {
+			height: 230px;
+			outline: none;
+			overflow: hidden;
+			position: relative;
+			width: 408px;
+			-moz-user-select: -moz-none;
+			-ms-user-select: none;
+			-webkit-tap-highlight-color: transparent;
+			-webkit-user-select: none
+		}
+
+		#fpdoodle #hplogo {
+			height: 360px;
+			width: 640px
+		}
+
+		#hplogo canvas {
+			background: url(./halloween16_files/cta_bg.png) no-repeat center;
+			background-size: contain;
+			height: 100%;
+			width: 100%
+		}
+
+		#dood #hplogo canvas {
+			background: url(./halloween16_files/ntp_bg.jpg) no-repeat;
+			background-size: contain;
+			cursor: pointer;
+			height: 100%;
+			width: 100%
+		}
+
+		#fpdoodle,
+		#sadoodle {
+			background: #000
+		}
+	</style>
+	<div id="hplogo" tabindex="0" title="Happy Halloween!" dir="{{LANGUAGE_DIRECTION}}" style="overflow: visible; width: 100%; height: 100%;">
+		<canvas width="640" height="360" dir="{{LANGUAGE_DIRECTION}}" style="transform-origin: 0px 0px 0px; margin: 50px auto; width: 1024px; height: 576px;"></canvas>
+	</div>
+	<script>
+		(function() {
+			window.google || (window.google = {});
+			google.doodle || (google.doodle = {});
+			google.doodle.url = "/search?q=automatically+replaced";
+			google.doodle.alt = "Automatically Replaced Alt Text JS";
+			google.doodle.share = "Automatically Replaced Share Text JS";
+			google.doodle.shortlink = "//g.co/doodle/permalink";
+			google.doodle.gallery = "//www.google.com/doodles/gallery";
+			google.doodle.large_image = "{{HOMEPAGE_IMAGE_URL}}";
+			google.doodle.hl = "Automatically Replaced Language";
+			google.doodle.msgs = {
+				"Automatically Replaced Translations": "Translations"
+			};
+			google.doodle.doodle_args = {
+				"Automatically Replaced Doodle Args": "Doodle Args"
+			};
+			if (!google.doodle || !google.doodle.loaded) {
+				var a = ["google", "doodle", "loaded"],
+					b = this;
+				a[0] in b || !b.execScript || b.execScript("var " + a[0]);
+				for (var c; a.length && (c = a.shift());) {
+					var d;
+					if (d = !a.length) d = !0;
+					d ? b[c] = !0 : b[c] ? b = b[c] : b = b[c] = {}
+				}
+				var e = document.createElement("script");
+				e.src = "./halloween16_files/halloween16.js";
+				e.async = !0;
+				document.body.appendChild(e)
+			};
+		})();
+	</script>
+</body>
+
+</html>

@@ -1074,7 +1074,7 @@
 		e.H = b;
 		e.W = d;
 		e.R = a[Hb(a, "requestFullscreen")];
-		a = document[Hb(document, "fullscreenEnabled")] && k(e.R) && k(Dd);
+		a = document[Hb(document, "")] && k(e.R) && k(Dd);
 		cc();
 		e.s = r.Wa && a;
 		cc();
